@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell-Zone</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header id="inicio" >
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img id="logo1" src="./img/logo-edi.png" alt="logo"><h1>Cell-Zone</h1>
+                <button type="button" class="navbar-toggler"data-bs-toggle="collapse"data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end"id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#começo">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#duv">Dúvidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contat">Nos contate</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div data-bs-spy="scroll" data-bs-target="#inicio">
+    <div class="container" id="começo" >
+        <div class="carousel  carousel-fade slide" data-bs-ride="carousel" id="carousel-exemplo" >
+            <div class="carousel-inner" >
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class=" d-block w-100" src="./img/iphone15 max.jpg" alt="iphone15">
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100"  src="./img/galaxy-s24-.jpg" alt="s24">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./img/Redmi-Note-13.png" alt="redmiNT13">
+                </div>
+            </div>
+            
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev"class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>    
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="container" id="produtos" >
+        <h1>Produtos</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark">
+                    <img src="./img/228339-800-auto.png"  alt="s24" >
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy S24 Ultra</h5>
+                        <h4 class="card-subtitle">512GB | 12GB de RAM | Tela de 6.8</h4>
+                        <h4 class="card-subtitle">R$ 9.899,10 à vista</h4>
+                        <p class="card-text">
+                            Circule para pesquisar;Tradução simultânea de voz e texto por IA;Câmera Quádrupla de 200MP + 50MP +12MP ;
+                        </p>
+                        <a href="#" class="btn btn-secondary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4" >
+                <div class="card  text-bg-dark"  >
+                    <img src="./img/Iphone 15.png"  alt="" id=ip15>
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 15 </h5>
+                        <h4 class="card-subtitle">128GB | 8GB de RAM| Tela de 6.12</h4>
+                        <h4 class="card-subtitle">R$ 5.000,00 à vista</h4>
+                        <p class="card-text">
+                            Super Retina XDROLED sem bordas de 6,7 polegadas(na diagonal)Resolução de 2796 x 1290 pixels a 460 ppp
+                        </p>
+                        <a href="#"class="btn btn-secondary w-100">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark" id="red13" >
+                    <img src="./img/redmi13.png"  alt="note13">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 13 </h5>
+                        <h4 class="card-subtitle">256GB |8GB RAM |Tela de 6.67 </h4>
+                        <h4 class="card-subtitle">R$ 1.839,99 à vista</h4>
+                        <p class="card-text">  Nova tela AMOLED 120Hz de 6,67,O novo processador MediaTek D6080 5G entrega toda a performance que você precisa.</p>
+                        <a class="btn btn-secondary w-100 " href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark  mt-4">
+                    <img  src="./img/zflip.png">
+                    <div class="card-body" >
+                        <h5 class="card-title">Samsung Galaxy Z Fold5</h5>
+                        <h4 class="card-subtitle">512GB | 12GB RAM |Tela Infinita 7.6 </h4>
+                        <h4 class="card-subtitle">R$ 8.999,10 à vista</h4>
+                        <p class="card-text">
+                            Galaxy Z Fold dobrável mais leve e compacto,Display principal imersivo de 7,6 polegadas,Bateria de 4400mAh
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark mt-4" >
+                    <img src="img/iphone 13.png"  alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 14</h5>
+                        <h4 class="card-subtitle">128GB |6GB RAM | Tela 6.1</h4>
+                        <h4 class="card-subtitle">R$ 4.400,00 à vista</h4>
+                        <p class="card-text">
+                            20 horas de reprodução de vídeo no iPhone 14,Sistema de câmera Pro,Resistência a respingos, água e poeira.
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark mt-4" >
+                    <img src="./img/redmi 12.jpg"  alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 12</h5>
+                        <h4 class="card-subtitle">256GB |8GB RAM | Tela 6.67</h4>
+                        <h4 class="card-subtitle">R$ 2.730.99 à vista</h4>
+                        <p class="card-text">
+                            Tecnologia Dual 5G para uma conectividade ultrarrápida ,bateria de longa duração com 5000 mAh,inovador.
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="promocoes">
+        <h1>Promoções</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark mb-4" >
+                    <img src="./img/asus.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus rog phone 7</h5>
+                        <h4 class="card-subtitle">512GB |16GB RAM| Tela 6.78</h4>
+                        <h6 class="card-subtitle" id="linha">R$ 9.999,00</h6>
+                        <h4 class="card-subtitle">R$ 9,500.00 à vista</h4>
+                        <p class="card-text">
+                            Snapdragon 8 Gen2 ,Além disso, os componentes são levados ao máximo com as tecnologias inovadoras de refrigeração GameCool 7 e AeroActive Portal.
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark"  id="margem">
+                    <img src="./img/motorola.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Motorola Moto G54 </h5>
+                        <h4 class="card-subtitle">512GB | 8GB RAM| Tela 6.5</h4>
+                        <h6 class="card-subtitle" id="linha">R$ 1.400,00</h6>
+                        <h4 class="card-subtitle">R$ 1,100.00 à vista</h4>
+                        <p class="card-text ">
+                            Dual Chip,Verde Vegan Leather,proporciona velocidades de internet ultrarrápidas,garantindo uma experiência de navegação suave.
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark" id="margem">
+                    <img src="./img/motorola2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Motorola Moto g24 </h5>
+                        <h4 class="card-subtitle">512GB | 4GB RAM| Tela 6.6</h4>
+                        <h6 class="card-subtitle" id="linha">R$ 1.000,00</h6>
+                        <h4 class="card-subtitle">R$ 900.00 à vista</h4>
+                        <p class="card-text ">
+                            Feito com material superior, tem uma proteção ao redor da câmera que é superconfortável. E com um acabamento fosco de alta qualidade 
+                        </p>
+                        <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                </div>
+                </div>
+            </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/redmi2.png" id="poco" alt="" >
+                        <div class="card-body">
+                            <h5 class="card-title">Xiaomi Poco X6 </h5>
+                            <h4 class="card-subtitle">256GB | 12GB RAM| Tela 6.0</h4>
+                            <h6 class="card-subtitle " id="linha" >R$ 2.500,00</h6>
+                            <h4 class="card-subtitle">R$ 1,500.00 à vista</h4>
+                            <p class="card-text ">
+                                Smartphone Xiaomi Poco X6 5G 256GB - 12GB Ram (Versao Global) (Black) Preto X6 5G 256GB - 12GB Ram (Versao Global) cccccc.
+                            </p>
+                            <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/iphone12.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 12 Pro Max  </h5>
+                            <h4 class="card-subtitle">256GB | 6GB RAM| Tela 6.7</h4>
+                            <h6 class="card-subtitle " id="linha" >R$  3.510,30</h6>
+                            <h4 class="card-subtitle">R$ 2,500.00 à vista</h4>
+                            <p class="card-text ">
+                                Câmera discreta de 12 megapixel mas que permite ao Apple iPhone 12 Pro Max tirar fotos de boa qualidade com uma resolução de 4000x3000 pixel.
+                            </p>
+                            <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/iphonexr.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">IPhone xr </h5>
+                            <h4 class="card-subtitle">128GB | 3GB RAM| Tela 6.0</h4>
+                            <h6 class="card-subtitle " id="linha" >R$  1.900,00</h6>
+                            <h4 class="card-subtitle">R$ 1,200.00 à vista</h4>
+                            <p class="card-text ">
+                                Apple Desbloqueado: Sim- Sistema operacional: IOSItens testados: - Botões; - Entrada de microfone; - Display e Touch; 4G/WIFI.
+                            </p>
+                            <a class="btn btn-secondary w-100" href="#">Comprar</a>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1  class="mb-5">Dúvidas Frequentes</h1>
+        <div class="accordion">
+            <div class="accordion-item" id="duv">
+                <div class="accordion-header" >
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#R1">
+                        Fazem entregas para todo o Brasil?
+                    </button>
+                </div>
+            </div>
+            <div id="R1" class="accordion-collapse collapse ">
+                <div class="accordion-body">
+                    Sim fazemos entregas para todo o Brasil e dependendo a região o frete é gratis.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#R2">
+                        Meu produto esta atrasado e agora?
+                    </button>
+                </div>
+            </div>
+            <div id="R2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Entre em contato com a gente pelo o tel: (00) 00000-000 e podemos vê o que ocorreu.
+                </div>  
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#R3">
+                    Como garantimos segurança ao comprador?
+                    </button>
+                </div>
+            </div>
+            <div id="R3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Apesar de incomum, se você tiver algum problema com a compra, estaremos à disposição para ajudar,se o problema não for resolvido vamos reembolsar 100% do valor.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contato" id="contat">
+        <h1>Nos contate</h1 >
+        <div class="row">
+            <div class="col">
+                <form>
+                    <label class="form-label" for="name">Seu Nome:</label>
+                    <input class="form-control w-50" type="text" id="nome">
+                    <label for="email" class="form-label">Seu E-mail:</label>
+                    <input type="email"class="form-control w-50" id="email">
+                    <label for="mensagem">Sua mensagem:</label>
+                    <textarea id="mensagem" class="form-control w-50"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <p class="col-sm col-md">&copy;Conteudo produzido por-HiberNT</p>
+            <p class="text-end col-md">&copy;2024-EBAC,Todos os diereitos reservados</p>
+        </div>
+        <div class="links-footer">
+            <ul class="d-flex social-midia">
+                <li>
+                    <a href="#">
+                        <img src="./img/x.png" alt="x" id="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/ig.png" alt="ig" id="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/face.png" alt="face" id="logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
